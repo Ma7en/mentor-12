@@ -1,0 +1,52 @@
+
+@media (max-width: 767px) {
+
+    body {
+        background-image: url("../../images/bg-mobile.svg");
+    }
+
+    /* start body */
+    .ment .container .card .body {
+        flex-direction: column;
+    }
+
+    .ment .container .card .body .left {
+        margin-bottom: 75px;
+        padding: 0 20px;
+    }
+
+
+    /* start right */
+    .ment .container .card .body .right {
+        text-align: center;
+    }
+
+    .ment .container .card .body .right h2 {
+        font-size: 25px;
+        padding: 0 10px;
+    }
+
+    .ment .container .card .body .right p {
+        line-height: 1.7;
+        padding: 0 20px;
+        margin-bottom: 50px;
+    }
+    
+    .ment .container .card .body .right a {
+        padding: 10px 75px;
+    }
+
+
+    /* start foot */
+    .ment .container .card .foot {
+        margin-top: 75px;
+    }
+
+    .ment .container .card .foot ul {
+        justify-content: center;
+    }
+
+
+
+}
+
